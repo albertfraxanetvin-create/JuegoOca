@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
-public class JuegoOca {
+public class JuegoOcaDef {
 
     static Scanner sc = new Scanner(System.in);
     static Random r = new Random();
@@ -30,7 +30,7 @@ public class JuegoOca {
                 hayGanador = jugarTurno(turno, nombres, posicion, penalizacion);
             }
 
-            turno++;
+            turno++; 
             if (turno == numJugadores) turno = 0;
         }
     }
